@@ -1,0 +1,27 @@
+{
+  "name": "bunyan-babe",
+  "version": "0.1.0",
+  "description": "A filter supported bunyan logger",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tilleps/bunyan-babe.git"
+  },
+  "keywords": [
+    "log",
+    "logging",
+    "bunyan",
+    "bunyan-babe",
+    "json",
+    "log4j"
+  ],
+  "author": "Eugene Song <tilleps@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tilleps/bunyan-babe/issues"
+  },
+  "homepage": "https://github.com/tilleps/bunyan-babe#readme"
+}
