@@ -50,7 +50,12 @@ module.exports = function () {
       }
     
     }
-  
+    
+    
+    if (arguments.length == 2 && typeof arguments[0] === 'string' && typeof arguments[1] === 'object') {
+      return bunyan.createLogger.call(null, arguments[1], arguments[0]);
+    }
+    
     return bunyan.createLogger.apply(null, arguments);
   }
 }
